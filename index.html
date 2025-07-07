@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoBGCfBTDL-sHFj2kWebAs9jB5qtQuGfYRQ&s" alt="Logo IFPR Campus Cascavel">
+        <h1>Cadastro de Alunos</h1>
+
+        <form id="form" action="post">
+            <div class="input">
+                <label for="nome">Nome</label>
+                <input type="text" class="input" name="nome" id="nome" required>
+
+                <label for="nome">Email</label>
+                <input type="email" class="input" name="email" id="email"  required>
+
+                <label for="cep">CEP</label>
+                <input type="text" class="input" name="cep" id="cep"  required>
+
+                <label for="logradouro">Logradouro</label>
+                <input type="text" class="input" name="logradouro" id="logradouro">
+
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+
+                <label for="cidade">Cidade</label>
+                <input type="text" class="input" name="cidade" id="cidade">
+
+                <label for="UF">UF</label>
+                <input type="text" class="input" name="UF" id="UF" >
+
+            </div>
+
+            <button type="submit" id="cadastrar">Cadastrar</button>
+            <button type="button" id="listar">Listar Salvos</button>
+            <input type="text" class="input" name="serchBtn" id="searchBtn">
+        </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
